@@ -1,0 +1,36 @@
+h1{
+  direction: rtl;         
+
+}
+
+table{
+    direction: rtl;
+}
+
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

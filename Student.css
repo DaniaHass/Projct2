@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Noto Sans Arabic','Poppins', sans-serif;
+   
+    
+}
+
+
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+header {
+    
+    background: #2691d9;
+    ;
+    padding: 15px;
+    text-align: right;
+    
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    height: 120px;
+    box-sizing: border-box;
+    
+    border-bottom: 2px solid #e6e5e5 ;
+
+
+   
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  
+   
+    
+}
+    .header img{
+    float:right;
+    margin-right:20px;
+    max-width: 7%;
+    display: block;
+    
+}
+.header h5 {
+    margin-left: 10px;
+    
+}
+.header .text{
+    text-align: end;
+    margin-right: 30px;
+    font-size: 2rem;
+
+}
+
+
+.container{
+    min-height: 500px;
+}
+
+ 
+.main .Right{
+    list-style: none;
+    width: 20%;
+    margin-left: auto; 
+    text-align: right;
+    background-color: #FFF;
+    ;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    height: 500px;
+    margin: border-box;
+    border-left: 2px solid  #e6e5e5;
+
+   
+    min-height: 600px;
+    margin-left:80% ;
+    padding-top: 10px;
+
+    
+   
+    
+}
+.Right .profile{
+
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.profile .image{
+    width: 60px;
+    height: 60px;
+}
+
+.Right li{
+   
+    border-bottom: 1px solid white;
+   
+
+
+}
+
+.Right ul{
+    display: block;
+    padding:0px;
+    list-style-type:none;
+    font-weight: bold;
+    line-height: 30px;
+  
+}
+.Right li a {
+
+display: block;
+text-decoration: none;
+padding: 12px;
+
+color: black;
+visibility: visible;
+
+}
+.Right  a:hover {
+    color:#2691d9;
+    background-color: #dddddd;
+
+}
+.Left{
+    background-color: #FFF;
+    width: 80%;
+    min-height: 600px;
+    float: left;
+
+}
+.Left img{
+   margin: 0 auto;
+    width: 10%;
+    display: block;
+   height: auto;
+   position: absolute;
+   margin-top: 15%;
+   left:35%;
+}
+
+/*--------TABLE STYlE-----------*/
+.Table{
+    direction: rtl;
+    position: absolute;
+      top: 45%;
+      left: 44%;
+      transform: translate(-50%, -50%);
+      width: 700px;
+      height: 45%;
+      background-color: #FFF;
+      border-radius: 10px;
+      box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+      text-align: right;
+      padding-right: 30px;
+      font-weight: bold;
+      font-family: 'Noto Sans Arabic', sans-serif;
+      padding: 20px;
+     
+    }
+    
+    .table_style{
+       
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            border-radius: 5px 5px 0 0;
+           
+            ;
+            
+
+              
+    }
+    .table_style .thead tr{
+     
+      background-color: #2691d9;
+      height: 20px;
+      color: #ffffff;
+      text-align: right;
+      line-height: 2;
+      box-sizing: border-box;
+      padding: 15px;
+      margin-right: 70px;
+      box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+      border-radius: 20px;
+      
+     
+    }
+    
+    .table_style tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    
+    .table_style th,
+    .table_style td {
+        padding: 20px 25px;
+        font-weight: bold;
+    }
+
+    /* اضافة بيانات التدريب*/
+
+
+.B{
+    position: absolute;
+     width: 80%;
+       min-height: 600px;
+     background-color: #FFF;
+     border-radius: 10px;
+     text-align: right;
+     margin-top: 10px ;
+     margin-bottom: 20px;
+     line-height: 2;
+     font-weight: bold;
+     
+   
+   }
+   
+   
+   input[type=text ] {
+       width: 30%;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+     }
+     input[type=number ] {
+       width: 30%;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+     }
+     
+   
+     input[type=date ] {
+       width: 30%;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+     }
+     input[type=textarea ] {
+       width: 30%;
+       height:50px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       resize: vertical;
+     }
+   
+     .border{
+       
+         margin-right: 70px;
+      
+     }
+     
+     .highlight{
+       color: #2691d9;
+     }
+      
+   
+   
+   /*BUTTON اضافة بيانات التدريب */
+   .ADD{
+       position: absolute;
+       top:50%;
+       background-color: #2691d9;
+       color: #fff;
+       border:none; 
+       border-radius:10px; 
+       padding:17px;
+       min-height:30px; 
+       min-width: 120px;
+       margin-left: -400px;
+       margin-top: 20px;
+     }
+
+
+     
+   
+    
+    
+    
+    
+
+
+
