@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Student.css">
-        <link rel="stylesheet" href="add a training program.css">
+        <link rel="stylesheet" href="table.css">
         <title> تقييم حضور الطلاب</title>
 
 
@@ -24,20 +24,37 @@
 
         <!----------LEFT------------>
           
-            <div class="container">
-                <div class="Left">
-                    <h1> حضور الطالب</h1>
-        <table>
+           
+                    <div class="container">
+                        <div class="Left">
+                            <h2 style="direction: rtl; padding: 30px;">سجلات التدريب</h1>
+        
+          <table>
             <tr>
-                <th>اسم الطالب</th>
-                <th>تقرير</th>
-                <th>حضور</th>
-                <th>التقييم</th>
+              <th>التاريخ</th>
+              <th>الطالب</th>
+              <th>عدد الساعات</th>
+              <th>اسم الشركة</th>
+              <th>النشاط</th>
+              <th>الحالة</th>
             </tr>
-        </table>
-                    
-                   
-                    </div>
+            <tr>
+              <td>3/7/2023</td>
+              <td>داليا</td>
+              <td>7</td>
+              <td> بلدية غزة</td>
+              <td> Html , css تصميم واجهة باستخدام </td>
+              <td>
+                <select>
+                  <option value="pending">انتظار</option>
+                  <option value="done">تم</option>
+                </select>
+              </td>
+            </tr>
+            
+            <!-- Add more rows for other student entries -->
+          </table>
+                    </div>        
                     
 
                     <!---------RIGHT----------->
@@ -54,10 +71,9 @@
         
                     
                         <ul>
-                            <li ><a href="#">الطلاب</a></li>
-                            <li> <a href="#"> تقييم الطلاب</a></li>
-                            <li> <a href="#"> عرض سجلات التدريب</a></li>
-                            <li ><a href="#"> تسجيل الخروج</a></li>
+                            <li> <a href="Evaluation of training summery.html"> تقييم الطلاب</a></li>
+                            <li> <a href="Evaluation of training data.html"> عرض سجلات التدريب</a></li>
+                            <li ><a href="Home.html"> تسجيل الخروج</a></li>
                         </ul>
         
             

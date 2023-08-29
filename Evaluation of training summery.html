@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Student.css">
-        <link rel="stylesheet" href="add a training program.css">
+        <link rel="stylesheet" href="table2.css">
         <script src="script.js"></script>
         <title>تقييم الطلاب</title>
      
@@ -28,31 +28,58 @@
           
             <div class="container">
                 <div class="Left">
-                    <h1>تقييم الطلاب</h1>
+                   
+                    
+                    <div class="evaluationForm">
+                    <br>
+                      <form id="evaluationForm">
+                        <label for="studentName">اسم الطالب:</label>
+                        <select id="studentName" name="studentName" required>
+                          <option value="">اختيار الطالب</option>
+                          <option value="student1">مرح </option>
+                          <option value="student2">داليا </option>
+                          <!-- Add more options for each student -->
+                        </select><br><br>
+                    
+                        <label for="evaluation">تقييم:</label>
+                        <input tybe="number" name="evaluation" min="0" required><br> <br>
+                    
+                        <label for="approvedHours" >عدد ساعات التدريب</label>
+                        <input type="number" id="approvedHours" name="approvedHours" min="0" required><br><br>
+                    
+                        <input type="submit" value="تقييم">
+                      </form>
+                    </div>
+                    
+
+  <table>
+    <thead>
+      <tr>
+        <th>اسم الطالب</th>
+        <th>اسم الشركة</th>
+        <th>التقييم</th>
+        <th>عدد ساعات التدريب</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>داليا</td>
+        <td>بلدية غزة</td>
+        <td>95</td>
+        <td>120 ساعة</td>
+      </tr>
+      <tr>
+        <td>مرح</td>
+        <td>الاتصالات</td>
+        <td>98</td>
+        <td>120 ساعة</td>
+      </tr>
+      <!-- Add more rows for each student -->
+    </tbody>
+  </table>
+
     
-    <!-- جدول بيانات الطلاب -->
-    <table>
-      <thead>
-        <tr>
-          <th>اسم الطالب</th>
-          <th>العلامة النهائية</th>
-          <th>عدد الساعات الموافقة عليها</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>طالب 1</td>
-          <td>90</td>
-          <td>120</td>
-        </tr>
-        <tr>
-          <td>طالب 2</td>
-          <td>85</td>
-          <td>110</td>
-        </tr>
-        <!-- يمكنك إضافة المزيد من الصفوف هنا -->
-      </tbody>
-    </table>
+    
     
           
                     
@@ -74,10 +101,9 @@
         
                     
                         <ul>
-                            <li ><a href="#">الطلاب</a></li>
-                            <li> <a href="#"> تقييم الطلاب</a></li>
-                            <li> <a href="#"> عرض سجلات التدريب</a></li>
-                            <li ><a href="#"> تسجيل الخروج</a></li>
+                          <li> <a href="Evaluation of training summery.html"> تقييم الطلاب</a></li>
+                          <li> <a href="Evaluation of training data.html"> عرض سجلات التدريب</a></li>
+                          <li ><a href="Home.html"> تسجيل الخروج</a></li>
                         </ul>
         
             
