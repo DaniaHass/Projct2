@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Student.css">
+        <link rel="stylesheet" href="add a training program.css">
+        <title> Home</title>
+
+
+    </head>
+    <body>
+        <header>
+            <div class="header">
+               <div class="text">
+                <h5>كلية الهندسة و تكنولوجيا المعلومات</h5>
+               </div>
+                
+                <img src="img/AUG.png" alt="AUG">
+        
+            </div>
+    
+        </header>
+
+        <!----------LEFT------------>
+          
+            <div class="container">
+                <div class="Left">
+                    
+                    <h1>إدارة برنامج التدريب</h1>
+
+                    <form action="process.php" method="post">
+                        
+                        <label for="start-date">تاريخ البدء:</label>
+                        <input type="date" id="start-date" name="start-date" required>
+                
+                        <label for="end-date">تاريخ الانتهاء:</label>
+                        <input type="date" id="end-date" name="end-date" required>
+
+                        <label for="student">اسم الطالب</label>
+                        <input type="text" id="trainer" name="trainer" required>
+                
+                        <label for="trainer">اسم المدرب:</label>
+                        <input type="text" id="trainer" name="trainer" required>
+                         <br>
+                        <input type="submit" value="إضافة برنامج">
+                    </form>
+
+
+                        
+                    
+                
+                    <table>
+                        <caption>قائمة البرامج التدريبية</caption>
+                        <thead>
+                            <tr>
+                               
+                                <th>تاريخ البدء</th>
+                                <th>تاريخ الانتهاء</th>
+                                <th>اسم الطالب</th>
+                                <th>اسم المدرب</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- هنا ستتم إضافة البيانات المسترجعة من قاعدة البيانات -->
+                        </tbody>
+                    </table>
+                    </div>
+
+                    <!---------RIGHT----------->
+
+                <div class="main">
+                    <div class="Right">
+                        <div class="profile"> <img src="img/user-profile-icon.jpg" class="image" alt="">
+                            <h3 class="name"></h3>
+                          <p class="role">مشرف</p>
+        
+        
+                        </div>
+        
+                       
+        
+                    
+                        <ul>
+                           
+                            <li> <a href="#">ادارة البرنامج التدريب </a></li>
+                            <li> <a href="#"> تقييم الطلاب</a></li>
+                            <li ><a href="#"> تسجيل الخروج</a></li>
+                        </ul>
+        
+            
+                </div>
+                
+            </div>
+    
+    </body>
+
+</html>

@@ -1,0 +1,104 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+   
+    direction: rtl;
+    position: absolute;
+      top: 37%;
+      left:40%;
+      right: 20%;
+      transform: translate(-50%, -50%);
+      width: 78%;
+     
+      background-color: #FFF;
+      border-radius: 10px;
+      text-align: right;
+      padding-right: 30px;
+      font-weight: bold;
+      font-family: 'Noto Sans Arabic', sans-serif;
+      padding: 30px;}
+
+      
+ 
+ 
+ 
+  table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  table tr:hover {
+    background-color: #e5e5e5;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+   
+    direction: rtl;
+    position: absolute;
+      top: 65%;
+      left:40%;
+      right: 20%;
+      transform: translate(-50%, -50%);
+      width: 78%;
+     
+      background-color: #FFF;
+      border-radius: 10px;
+      text-align: right;
+      padding-right: 30px;
+      font-weight: bold;
+      font-family: 'Noto Sans Arabic', sans-serif;
+      
+      padding: 30px;}
+
+      .evaluationForm{
+        direction: rtl;
+        background-color:white;
+        padding: 30px;
+        margin-bottom: 20px;
+        text-align: right
+        ;
+        
+      
+        padding-top: -10px;
+        
+       
+       
+       
+
+       
+      }
+
+ 
+ 
+ 
+  table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  table tr:hover {
+    background-color: #e5e5e5;
+  }

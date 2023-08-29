@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Student.css">
+        <link rel="stylesheet" href="table2.css">
+        <script src="script.js"></script>
+        <title>تقييم الطلاب</title>
+     
+
+
+    </head>
+    <body>
+        <header>
+            <div class="header">
+               <div class="text">
+                <h5>كلية الهندسة و تكنولوجيا المعلومات</h5>
+               </div>
+                
+                <img src="img/AUG.png" alt="AUG">
+        
+            </div>
+    
+        </header>
+
+        <!----------LEFT------------>
+          
+            <div class="container">
+                <div class="Left">
+                   
+                    
+                    <div class="evaluationForm">
+                    <br>
+                      <form id="evaluationForm">
+                        <label for="studentName">اسم الطالب:</label>
+                        <select id="studentName" name="studentName" required>
+                          <option value="">اختيار الطالب</option>
+                          <option value="student1">مرح </option>
+                          <option value="student2">داليا </option>
+                          <!-- Add more options for each student -->
+                        </select><br><br>
+                    
+                        <label for="evaluation">تقييم:</label>
+                        <input tybe="number" name="evaluation" min="0" required><br> <br>
+                    
+                        <label for="approvedHours" >عدد ساعات التدريب</label>
+                        <input type="number" id="approvedHours" name="approvedHours" min="0" required><br><br>
+                    
+                        <input type="submit" value="تقييم">
+                      </form>
+                    </div>
+                    
+
+  <table>
+    <thead>
+      <tr>
+        <th>اسم الطالب</th>
+        <th>اسم الشركة</th>
+        <th>التقييم</th>
+        <th>عدد ساعات التدريب</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>داليا</td>
+        <td>بلدية غزة</td>
+        <td>95</td>
+        <td>120 ساعة</td>
+      </tr>
+      <tr>
+        <td>مرح</td>
+        <td>الاتصالات</td>
+        <td>98</td>
+        <td>120 ساعة</td>
+      </tr>
+      <!-- Add more rows for each student -->
+    </tbody>
+  </table>
+
+    
+    
+    
+          
+                    
+                   
+                    </div>
+                    
+
+                    <!---------RIGHT----------->
+
+                <div class="main">
+                    <div class="Right">
+                        <div class="profile"> <img src="img/user-profile-icon.jpg" class="image" alt="">
+                            <h3 class="name"></h3>
+                          <p class="role">مشرف</p>
+                        </div>
+
+                         
+                       
+        
+                    
+                        <ul>
+                          <li> <a href="Evaluation of training summery.html"> تقييم الطلاب</a></li>
+                          <li> <a href="Evaluation of training data.html"> عرض سجلات التدريب</a></li>
+                          <li ><a href="Home.html"> تسجيل الخروج</a></li>
+                        </ul>
+        
+            
+                </div>
+                
+            </div>
+    
+    </body>
+
+</html>
